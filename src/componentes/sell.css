@@ -1,0 +1,165 @@
+.sell-feild {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+
+    form {
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #00965b;
+        border-radius: 15px;
+
+        p.err-msg {
+            font-size: 15px;
+            color: red;
+            padding: 0;
+            /* background: #000; */
+        }
+
+        p {
+            color: #fff;
+            text-align: center;
+            padding: 20px 0px;
+            font-size: 1.5em;
+
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 15px auto;
+            border-radius: 6px;
+        }
+
+        textarea {
+            width: 80%;
+            padding: 10px 20px;
+            margin: 15px auto;
+            border-radius: 6px;
+        }
+
+        input[type="file"] {
+            background-color: #fff;
+            padding: 10px 70px;
+            font-size: 1em;
+            margin: 25px auto;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 200px;
+            padding: 10px 20px;
+            margin: 10px auto;
+            border-radius: 20px;
+            border-style: none;
+            font-size: 1em;
+            font-weight: 600;
+            color: #00965b;
+            cursor: pointer;
+            background-color: #fff;
+
+        }
+    }
+}
+
+
+dialog {
+    background-color: #ffffff;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 1px 10px gray;
+    height: 150px;
+    margin: auto;
+
+
+    p {
+        text-align: center;
+        margin: 20px;
+        font-weight: 600;
+        color: #fff;
+
+    }
+
+    button {
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+        border: solid green 2px;
+        padding: 5px 8px;
+        font-size: 1em;
+        font-weight: 600;
+        color: green;
+        cursor: pointer;
+        background: white;
+    }
+
+}
+
+
+.icon {
+    font-size: 2.5em;
+
+    * {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+.main-text-sce {
+    width: 600px;
+    height: auto;
+    margin: 30px auto;
+
+
+    h3 {
+        text-transform: uppercase;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    h1 {
+        padding: 20px;
+        font-size: 2.8em;
+        text-align: center;
+
+    }
+
+    p {
+        padding: 20px;
+        font-size: 1.4em;
+        text-align: justify;
+    }
+
+    img {
+        width: 400px;
+        height: 220px;
+        align-self: center;
+        margin-left: 90px;
+    }
+}
+
+.sell-text {
+    color: #00965b;
+    width: 60%;
+
+}
+
+dialog {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 1px 10px gray;
+    height: 150px;
+
+    margin: auto;
+
+
+}

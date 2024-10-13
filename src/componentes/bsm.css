@@ -1,0 +1,100 @@
+.main {
+    width: 94%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    row-gap: 20px;
+}
+
+.main .one {
+    width: 400px;
+    background-color: #189b2c;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+
+    p,
+    h2 {
+        color: #fff;
+        padding: 15px 20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    button {
+        height: 33px;
+        width: 100px;
+        border-radius: 7px;
+        border-style: none;
+        background-color: #fff;
+        color: #189b2c;
+        font-weight: 600;
+
+        cursor: pointer;
+
+    }
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main .two {
+    row-gap: 20px;
+    width: 400px;
+    background-color: #189b2c;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+
+    p,
+    h2 {
+        color: #fff;
+        padding: 15px 20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+    button {
+        height: 33px;
+        width: 100px;
+        border-radius: 7px;
+        border-style: none;
+        margin-bottom: 10px;
+        background-color: #fff;
+        color: #189b2c;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+}
+
+.main li {
+    padding-top: 2px;
+}
+
+@media(max-width:900px) {
+    .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+        flex-direction: column;
+
+        .one,
+        .two {
+            width: 90%;
+        }
+    }
+
+
+
+
+}

@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+.sigin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(22, 214, 22); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/test-project-84da7.appspot.com/o/SAVE_20240917_130447.jpg?alt=media&token=56fadae5-7722-4201-9579-d237e1411f75');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(100px);
+
+  dialog {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 1px 10px gray;
+    height: 150px;
+    background-color: rgb(22, 214, 22);
+    margin: auto;
+
+    p {
+      text-align: center;
+      margin: 20px;
+      font-weight: 600;
+      color: #fff;
+
+    }
+
+    button {
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      border: solid green 2px;
+      padding: 5px 8px;
+      font-size: 1em;
+      font-weight: 600;
+      color: green;
+      cursor: pointer;
+      background: white;
+    }
+
+  }
+}
+
+.icon {
+  font-size: 2.5em;
+
+  * {
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+.sigin form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 10px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.sigin input {
+  width: 90%;
+  margin: auto;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.sigin input[type="submit"] {
+  width: 150px;
+  color: white;
+  background-color: rgb(22, 214, 22);
+  border-width: 0px;
+  cursor: pointer;
+  height: 40px;
+  font-family: 600;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(22, 214, 22); */
+  /* background-image: url('bgimg.png'); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/test-project-84da7.appspot.com/o/SAVE_20240917_130447.jpg?alt=media&token=56fadae5-7722-4201-9579-d237e1411f75');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(100px);
+}
+
+.login form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 10px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.login input {
+  width: 90%;
+  margin: auto;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.login input[type="submit"] {
+  width: 150px;
+  color: white;
+  background-color: rgb(22, 214, 22);
+  border-width: 0px;
+  cursor: pointer;
+  height: 40px;
+  font-family: 800;
+}
+
+.login p {
+  text-align: center;
+}
+
+.sigin p {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+.login img {
+  height: 130px;
+  width: 200px;
+  align-self: center;
+}
+
+.sigin img {
+  height: 130px;
+  width: 200px;
+  align-self: center;
+}
+
+.slider {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}

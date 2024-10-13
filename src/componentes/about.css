@@ -1,0 +1,31 @@
+.about {
+    width: 100%;
+    height: auto;
+    background-color: rgb(187, 228, 187);
+    padding: 20px 0px;
+
+    h1,
+
+    h3 {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    h2 {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: green;
+    }
+
+    p {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+}

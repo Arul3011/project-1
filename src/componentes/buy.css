@@ -1,0 +1,145 @@
+.buy-main {
+    margin-top: 30px;
+    width: 90%;
+    margin: 0 auto;
+
+    input {
+        width: 600px;
+        min-width: auto;
+        font-size: 1.5em;
+        padding: 10px 25px;
+        margin-top: 25px;
+        border-radius: 25px;
+
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+}
+
+.buy-home {}
+
+.buy-cards {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.buy-cards .card {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    border-radius: 7px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+    &:hover {
+        box-shadow: 1px 1px 20px gray;
+    }
+
+}
+
+.card .one {
+    width: 50%;
+}
+
+.card .two {
+    width: 50%;
+
+    h3 {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    p {
+        padding: 10px;
+
+
+        span {
+            font-size: 20px;
+            padding: 7px;
+            border-radius: 50%;
+
+        }
+    }
+
+    input[type="button"] {
+        padding: 10px 35px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: green;
+        background-color: green;
+        color: #fff;
+        font-weight: 600;
+        margin-left: 160px;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+
+        &:hover {
+            background-color: #fff;
+            color: green;
+        }
+    }
+}
+
+.card .one img {
+    width: 70%;
+    height: 70%;
+    margin: 40px;
+    border-radius: 10px;
+
+}
+
+p.card-p {
+    margin-left: 10px;
+
+}
+
+@media(max-width:700px) {
+    .buy-main input {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .buy-cards {
+        gap: 20px;
+    }
+
+    .buy-cards .card {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin: auto 0;
+
+        button {
+            margin: 10px 20px;
+        }
+
+        .one,
+        .tow {
+            width: 90%;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 150px;
+            margin: 20px auto;
+        }
+
+        h3,
+        p {
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+}

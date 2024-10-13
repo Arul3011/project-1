@@ -1,0 +1,31 @@
+.blogs {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.articalcard {
+    width: 80%;
+    height: 100px;
+
+    padding: 20px 15px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+
+    &:hover {
+        box-shadow: 1px 1px 10px gray;
+    }
+
+    h2 {
+        margin: 10px 0;
+    }
+
+    p {
+        padding: 10px 0;
+    }
+}
